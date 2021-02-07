@@ -49,7 +49,7 @@ const showDetails = name => {
                     <li class="ingredients">${item.strIngredient7}</li>
                 </ul>
             </div>
-            `
+            `  
         })
 }
 
