@@ -21,7 +21,7 @@ const foodItemList = () => {
                 foodItems.appendChild(foodCard);
             });
         })
-        .catch(err => alert('Your search term is not valid'));
+        .catch(err => alert('No match found'));
 }
 
 //----------------------------- Item Details After Click --------------------
